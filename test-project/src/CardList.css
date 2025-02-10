@@ -1,0 +1,17 @@
+.card-container{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.card{
+    min-width: 200px;
+    padding:15px;
+}
+
+.card img{
+    width: 100%;
+}
+
