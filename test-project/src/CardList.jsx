@@ -2,8 +2,6 @@ import React, {useState, useEffect, useRef} from 'react';
 import axios from 'axios';
 import "./CardList.css"
 
-
-
 const CardList = ()=>{
     const [cards, setCards] = useState([]);
     const [page, setPage] = useState(1);
